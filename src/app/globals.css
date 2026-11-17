@@ -43,10 +43,10 @@
   --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
 }
 
+/* Tailwind Preflight resets default margins and padding. Keep this rule to box sizing only,
+   so Tailwind spacing utilities can control the layout throughout the site. */
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html {
